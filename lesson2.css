@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.uber, .amazon, .github, .bootstrap, .linkedin{
+  background-color: #fff;
+  display: inline-block;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+}
+.uber button{
+  background-color: #000;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 2px;
+}
+.amazon button{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 8px 40px;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.github button{
+  background-color: rgb(46, 164, 79);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.bootstrap .get-started{
+  background-color: rgb(121, 82, 179);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.bootstrap .download{
+  border: 1px solid rgb(108, 117, 125);
+  background-color: #fff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  font-size: 16px;
+}
+.linkedin .apply{
+  background-color: rgb(10, 102, 194);
+  border: none;
+  padding: 8px 30px;
+  border-radius: 24px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px; 
+}
+.linkedin .save{
+  border: 1px solid rgb(10, 102, 194);
+  background-color: #fff;
+  padding: 8px 20px;
+  border-radius: 24px;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  font-size: 16px;
+}
+.challenge{
+  background-color: #fff;
+  display: inline-block;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+.challenge a{
+  color: rgb(0, 113, 133);
+}
+.challenge .price{
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.challenge .add{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 8px 40px;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.challenge .buy{
+  background-color: rgb(255, 164, 28);
+  border: none;
+  padding: 8px 40px;
+  border-radius: 24px;
+  font-size: 16px;
+}
