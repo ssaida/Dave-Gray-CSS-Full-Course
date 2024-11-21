@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+.b{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.b .sales{
+  font-style: italic;
+  color: red;
+}
+.c{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  margin: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c .pro{
+  color: rgb(96, 96, 96);
+}
+.c button{
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+.d{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.challenge1{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.challenge1 .new{
+  color: rgb(138, 118, 4);
+}
+.challenge1 button{
+  background-color: rgb(29, 76, 146);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 24px;
+}
+.challenge2{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  width: 400px;
+  margin: 10px 0;
+}
+.challenge2 .price{
+  font-size: 24px;
+}
+.challenge2 .price .usd{
+  font-size: 16px;
+  color: rgb(97, 97, 97);
+}
+.challenge2 .today{
+  color: green;
+}
+.challenge2 .after{
+  color: gray;
+}
+.challenge2 .after .red{
+  color: red;
+}
+.freeCodeCamp{
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+  width: 500px;
+  margin: 10px 0;
+}
+.freeCodeCamp .hash{
+  color: gray;
+}
+.freeCodeCamp .chp{
+  color: blue;
+}
