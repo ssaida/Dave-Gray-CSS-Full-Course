@@ -148,5 +148,5 @@ body{
   transition: bachground-color 0.5s;
 }
 .challenge .buy:active{
-  background-color: rgb(167, 107, 17); 
+  background-color: rgb(167, 107, 17);
 }
