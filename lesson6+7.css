@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a, .b, .c{
+  display: inline-block;
+  background-color: #fff;
+  padding: 8px;
+}
+.a img{
+  width: 300px;
+  border-radius: 24px;
+}
+.b img{
+  width: 300px;
+}
+.c img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
