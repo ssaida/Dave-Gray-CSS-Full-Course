@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a, .b{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 400px;
+  margin: 4px 0;
+  background-color: #fff;
+  padding: 8px;
+}
+.a input{
+  display: block;
+  margin: 4px 0;
+}
+.b p{
+  width: 70%;
+  vertical-align: middle;
+  display: inline-block; 
+}
+.b button{
+  padding: 4px 10px;
+}
+.c .google{
+  width: 100%;
+  text-align: center;
+}
+.c{
+  margin: 4px 0;
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+}
+.c .google img{
+  width: 80%;
+}
+.c input{
+  width: 80%;
+  border: none;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.9);
+  padding: 8px 20px;
+  border-radius: 24px;
+}
+.d, .e{
+  background-color: #fff;
+  width: 400px;
+  padding: 8px;
+  margin: 8px 0;
+}
+.d input[type="text"]{
+  width: 48%;
+  padding: 8px 20px;
+}
+.d input[type="email"]{
+  display: block;
+  width: 97%;
+  margin: 4px 0;
+  padding: 8px 20px;
+}
+.d button{
+  background-color: rgb(48, 129, 236);
+  color: #fff;
+  width: 97%;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 24px;
+}
+.e input{
+  display: block;
+  width: 100%;
+  padding: 8px 20px;
+  margin: 4px 0;
+}
+.e .request{
+  background-color: #333;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+.e .later{
+  background-color: lightgray;
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+}
