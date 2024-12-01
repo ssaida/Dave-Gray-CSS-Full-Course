@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.b{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.c{
+  background-color: #fff;
+  display: inline-block;
+  border: 1px solid #000;
+  margin: 8px 4px;
+  padding: 8px;
+}
+.d{
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 8px;
+}
+.e{
+  display: inline-block;
+  width: 400px;
+  padding: 8px;
+  background-color: #fff;
+}
+.e img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.e input{
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+}
+.e button{
+  background-color: rgb(0, 105, 139);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 24px;
+}
+.challenge{
+  background-color: #fff;
+  padding: 20px;
+}
+.challenge .col{
+  display: inline-block;
+  padding: 2px;
+  width: 300px;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.9);
+}
+.challenge .col img{
+  width: 100%;
+}
+.challenge .col button{
+  background-color: rgb(0, 105, 139);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 2px;
+}
