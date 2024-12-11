@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+} 
+.container{
+  height: 100vh;
+  display: flex; 
+  border: 1px solid #000;
+  padding: 2px;
+  justify-content: space-between;
+  align-content: stretch ;
+  
+}
+.container  > div{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #333;  
+}
+.container .child:nth-child(1){
+  background-color: red;  
+  flex-grow: 1 ;
+}
+.container .child:nth-child(2){
+  background-color: blue;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+.container .child:nth-child(3){
+  background-color: green ;
+}
