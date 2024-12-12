@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: silver;
+  font-family: sans-serif;
+}
+.a{
+  background-color: #fff;
+  margin: 4px;
+  display: flex;
+  width: 275px;
+  padding: 4px;
+}
+.a .left{
+  flex-basis: 200px;
+  background-color: pink;
+}
+.a .right{
+  flex-basis: 75px;
+  background-color: lightblue;
+}
+.b{
+  background-color: #fff;
+  margin: 4px;
+  padding: 4px;
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+}
+.b .left{
+  background-color: pink;
+}
+.b .middle{
+  background-color: lightblue;
+  flex: 1;
+}
+.b .right{
+  background-color: pink;
+}
+.c{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c > div{
+  background-color: pink;
+}
+.d{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 4px;
+  padding: 4px;
+  border: 1px solid #000;
+}
+.e{
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 8px 20px;
+  width: 400px;
+}
+.e .row{
+  display: flex;
+  margin: 6px 0;
+  justify-content: space-between;
+}
+.e .row button{
+  background-color: rgb(4, 65, 85);
+  color: #fff;
+  padding: 4px 12px;
+  border: none;
+  border-radius: 24px;
+}
+.f{
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 4px;
+  width: 400px;
+}
+.f .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f .row .left{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.f .row .image{
+  width: 100px;
+  padding: 4px;
+}
+.f .row .image img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.f .row .right button{
+  background-color: rgb(97, 97, 187);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.g{
+  background-color: rgb(161, 6, 167);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.g input{
+  flex: 1;
+  margin: 0 30px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+}
+.g button {
+  background-color: rgb(161, 6, 167);
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+}
