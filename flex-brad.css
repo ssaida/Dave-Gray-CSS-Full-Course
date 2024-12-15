@@ -67,9 +67,9 @@ footer .info-box{
   padding: 4px;
   border-radius: 8px;
 }
-@media screen and (max-width:700px) {
+@media(max-width:768px) {
   header, main, footer{
     flex-direction: column;
+    text-align: center;
   }
-  
 }
